@@ -8,8 +8,9 @@ Uses the python-btrfs library, **https://pypi.org/project/btrfs/**
 ## Example on how to use
 
 Create a python venv then install the lib
-
+```
 $ . venv/bin/activate
 (venv) $ pip install btrfs
 
 $ sudo ~/venv/bin/python ~/btrfs-balance-exclude-devid/bin/btrfs-balance-exclude-devid -d 1 /mnt/backupdrive
+```
